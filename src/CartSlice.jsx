@@ -29,8 +29,7 @@ if (itemToUpdate) {
     
     },
   },
-});
+ );
 
 export const { addItem, removeItem, updateQuantity } = CartSlice.actions;
-
 export default CartSlice.reducer;
